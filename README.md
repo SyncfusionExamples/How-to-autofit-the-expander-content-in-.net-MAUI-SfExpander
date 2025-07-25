@@ -1,9 +1,9 @@
-# How to Autofit the Expander Content in .NET MAUI SfExpander
+# How to Autofit the Expander Content in .NET MAUI SfExpander?
 This article demonstrates how to autofit the expander content in [.NET MAUI SfExpander](https://www.syncfusion.com/maui-controls/maui-expander). This example shows how the SfExpander automatically adjusts its size based on the content.
 
 **XAML:**
 
-Added Editor control to SfExpander content. To change the content size based on the text, set AutoSize as TextChanges for Editor control.
+Added Editor control to SfExpander content. To change the content size based on the text, set AutoSize as text changes for Editor control.
 
  ```xml
     <ContentPage.Content>
@@ -11,7 +11,7 @@ Added Editor control to SfExpander content. To change the content size based on 
         <StackLayout>
             <syncfusion:SfExpander IsExpanded="True">
                 <syncfusion:SfExpander.Header>
-                    <Grid HeightRequest="50">
+                    <Grid HeightRequest="50" Padding="10">
                         <Label Text="Veggie burger" VerticalTextAlignment="Center"/>
                     </Grid>
                 </syncfusion:SfExpander.Header>
